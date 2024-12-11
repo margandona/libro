@@ -1,0 +1,21 @@
+{
+  "name": "libro",
+  "version": "1.0.0",
+  "description": "Este documento presenta la visión y el alcance del proyecto para desarrollar un sistema de gestión de registros destinado a hoteles y residencias ubicados en diversas ciudades de Chile. El sistema permitirá a los usuarios administrar reservas, visitas y datos de hospedaje de manera eficiente y segura.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "firebase": "^11.0.2",
+    "firebase-admin": "^13.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
